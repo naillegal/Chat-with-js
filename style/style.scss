@@ -1,0 +1,65 @@
+.mini-chat{
+    position: fixed;
+    right: 70px;
+    bottom: 100px;
+    background-color: black;
+    color: pink;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    i{
+        font-size: 40px;
+    }
+}
+#chat{
+    width: 350px;
+    position: fixed;
+    bottom:50px;
+    right: 50px;
+    border: 3px solid red;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+    header{
+        padding: 40px 25px;
+        background-color: pink;
+        span{
+            color: white;
+            font-size: 20px;
+        }
+        .close-chat{
+        i{
+            font-size: 25px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+    }
+    main{
+        height: 280px;
+        overflow-y: scroll;
+        background-color: white;
+        .message{
+            padding: 15px;
+            margin: 20px 10px;
+            border-radius: 15px;
+            position: relative;
+            min-width: 51%;
+            .time{
+                position: absolute;
+                top:100%;
+                right: 15px;
+                color: grey;
+            }
+            &.support{
+                float:left;
+                background-color: crimson;
+                color: white;
+            }
+            &.user{
+                float:right;
+                background-color: black;
+                color: crimson;
+            }
+        }
+    }
+}

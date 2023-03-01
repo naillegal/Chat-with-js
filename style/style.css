@@ -1,0 +1,64 @@
+.mini-chat {
+  position: fixed;
+  right: 70px;
+  bottom: 100px;
+  background-color: black;
+  color: pink;
+  padding: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mini-chat i {
+  font-size: 40px;
+}
+
+#chat {
+  width: 350px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border: 3px solid red;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+}
+#chat header {
+  padding: 40px 25px;
+  background-color: pink;
+}
+#chat header span {
+  color: white;
+  font-size: 20px;
+}
+#chat header .close-chat i {
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+#chat main {
+  height: 280px;
+  overflow-y: scroll;
+  background-color: white;
+}
+#chat main .message {
+  padding: 15px;
+  margin: 20px 10px;
+  border-radius: 15px;
+  position: relative;
+  min-width: 51%;
+}
+#chat main .message .time {
+  position: absolute;
+  top: 100%;
+  right: 15px;
+  color: grey;
+}
+#chat main .message.support {
+  float: left;
+  background-color: crimson;
+  color: white;
+}
+#chat main .message.user {
+  float: right;
+  background-color: black;
+  color: crimson;
+}/*# sourceMappingURL=style.css.map */
